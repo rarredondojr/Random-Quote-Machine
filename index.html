@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Quote Machine</title>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="js/quotes.js"></script>
+</head>
+
+<body>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="media/Mt_Baker.mp4" type="video/mp4">
+    </video>
+    <div id="quote-box" class="container-fluid bg-white">
+        <div class="row custom">
+            <div class="col-sm p-3 mb-2 bg-white text-dark text-center text-justify">
+                <div id="text" class="">
+                    <p>Patriotism, when it wants to make itself felt in the domain of learning, is a dirty fellow who
+                        should be thrown out of doors.</p>
+                </div>
+                <div id="author" class="text-center">
+                    <p>- Arthur Schopenhauer</p>
+                </div>
+                <button class="animate fadeIn fadeOut btn btn-dark btn-default" id="new-quote">New Quote</button>
+                <button class="btn btn-light btn-default"><a id="tweet-quote" href="http://twitter.com/intent/tweet"><i
+                            class="fa fa-twitter"></i></a></button>
+            </div>
+
+        </div>
+        <div class="row"></div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
