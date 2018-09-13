@@ -1,6 +1,6 @@
 # Quote Machine
 
-An app that servers random quotes to the user when a button is clicked.
+An app that serves random quotes to the user when a button is clicked.
 
 ## Getting Started
 
