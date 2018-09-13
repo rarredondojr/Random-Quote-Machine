@@ -17,7 +17,7 @@ Simply click the New Quote button to generate a new quote. Enjoy!
 
 ## Authors
 
-* **Ramon Arredondo** - *Initial work* - [PurpleBooth]
+* **Ramon Arredondo**
 
 
 ## License
