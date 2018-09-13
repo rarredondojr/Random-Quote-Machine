@@ -11,6 +11,8 @@ Simply click the New Quote button to generate a new quote. Enjoy!
 * [HTML5](https://en.wikipedia.org/wiki/HTML5/) - The markup language
 * [CSS3](https://developer.mozilla.org/en/docs/Web/CSS/CSS3) - Styling
 * [JAVASCRIPT](https://www.w3schools.com/js/)- Used to generate random quotes
+* [JQUERY](https://jquery.com/) - Used for quote transitions
+* [BOOTSTRAP](https://www.bootstrapcdn.com/) - Used to make the app responsive
 
 
 ## Authors
